@@ -9,6 +9,7 @@ const getWeatherData = require('../src/utils/getWeatherData')
 
 //intialises the app server
 const app = express()
+const port =    process.env.PORT || 3000
 const viewsPath = path.join(__dirname,'../templates/views')
 const partialPath = path.join(__dirname,'../templates/partials')
 
@@ -106,6 +107,6 @@ app.get("*",(req,res)=>{
 })
 
 //start the server up , use it single time => to listen on port 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log("server started")
 })
