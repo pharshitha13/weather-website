@@ -14,7 +14,7 @@ const getWeatherData = (lat,lang,callback)=> {
             descprition.forEach(desc => {
                 console.log("Wheather Descrpition "+desc);
             });
-            callback(undefined , " This is the current  "+ current.temperature +" degree . It feels like "+current.feelslike+" degree out.")
+            callback(undefined , " This is the current  "+ current.temperature +" degree . It feels like "+current.feelslike+" degree out.The humidity is "+current.humidity+"%")
         }
     })
 }   
