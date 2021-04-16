@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    color:cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+}
+p{
+    color: crimson;
+}
+a{
+    color:orange;
+    padding: 30px 20px;
+}
+img{
+    max-width: 500px;
+}
